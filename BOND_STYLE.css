@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    background: #858585;
+}
+
+.logo {
+    padding: 30px;
+    text-align: left;
+    color: red;
+    font-size: 50px;
+    float: left;
+    padding-top: 40px;
+}
+
+.header {
+    margin: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-right: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: bold;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.stolen {
+    padding: 0;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20%;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.bodypara {
+    padding: 20px;
+    font-size: medium;
+    font-variant: black;
+    text-align: center;
+}
+
+.characters {
+    font-size: 22px;
+    margin: 45px;
+    color: black;
+    background-origin: absolute;
+    background: whitesmoke;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 40%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 25px;
+    font-style: italic;
+}
+
+.characters h2 {
+    background-color: rgb(251, 220, 41);
+    color: red;
+    margin-left: 22px;
+    margin-right: 50px;
+}
+
+.characters ul {
+    margin-left: 20px;
+    margin-right: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.characters li {
+    background-color: whitesmoke;
+}
+
+.characters ul li {
+    margin-left: 75px;
+}
+
+.collection {
+    background-color: black;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 80px;
+    font-color: black;
+    font-style: bold;
+    font-size: 30px;
+    border-radius: 40px;
+}
+
+.Movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.Bond {
+    height: 450px;
+    width: 250px;
+    margin: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    box-shadow: 20px 10px 50px black;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Bond:hover {
+    transform: scale(1.2);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 100px;
+    background-color: steelblue;
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    outline: none;
+    box-shadow: 1px 1px 5px black;
+    transition: transform 0.2s ease-in-out;
+}
+
+.buttons:hover {
+    background-color: #fff;
+    right: 0;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.bottom h3 {
+    padding: 20px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 4000;
+}
+
+.button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: rgb(26, 96, 26);
+    border: black;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+    box-shadow: 1px 1px 5px black;
+    filter: drop-shadow(5px 5px 10px #555)
+}
+
+.button:hover {
+    background-color: #fff;
+    right: 0;
+    cursor: pointer;
+}
+
+.Shareportion {
+    padding: 20px;
+    height: 50px;
+    background: black;
+    margin: auto;
+    text-align: center;
+}
+
+.share {
+    padding-bottom: 90px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-bottom: -80px;
+}
+
+.io-f {
+    color: darkblue;
+    background: white;
+    height: 24px;
+    width: 25px;
+}
+
+.io-f:hover {
+    background-color: #FA01F2;
+}
+
+.io-g {
+    color: green;
+    background: white;
+    height: 24px;
+    width: 25px;
+}
+
+.io-g:hover {
+    background-color: #FA01F2;
+}
+
+.io-t {
+    color: white;
+    background: blue;
+    height: 24px;
+    width: 25px;
+}
+
+.io-t:hover {
+    background-color: #FA01F2;
+}
+
+.io-i {
+    color: red;
+    background: white;
+    height: 24px;
+    width: 25px;
+}
+
+.io-i:hover {
+    background-color: #FA01F2;
+}
+
+.io-l {
+    color: white;
+    background: blue;
+    height: 24px;
+    width: 25px;
+}
+
+.io-l:hover {
+    background-color: #FA01F2;
+}
+
+.io-s {
+    color: blue;
+    background: white;
+    height: 24px;
+    width: 25px;
+}
+
+.io-s:hover {
+    background-color: #FA01F2;
+}
+
+.io-gi {
+    color: black;
+    background: white;
+    height: 24px;
+    width: 25px;
+}
+
+.io-gi:hover {
+    background-color: #FA01F2;
+}
+
+.io-p {
+    color: red;
+    background: white;
+    height: 24px;
+    width: 25px;
+}
+
+.io-p:hover {
+    background-color: #FA01F2;
+}
